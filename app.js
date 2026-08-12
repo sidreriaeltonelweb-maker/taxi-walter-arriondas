@@ -1,4 +1,4 @@
-const pagesBase='/taxi-walter-arriondas';
+const pagesBase=window.location.hostname.endsWith('.github.io')?'/taxi-walter-arriondas':'';
 const internalRoutes={
   '/':`${pagesBase}/`,
   '/excursiones':`${pagesBase}/excursiones.html`,

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sidreriaeltonelweb-maker.github.io/taxi-walter-arriondas/sitemap.xml
+Sitemap: https://taxiwalter.es/sitemap.xml
