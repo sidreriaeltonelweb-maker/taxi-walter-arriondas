@@ -39,7 +39,7 @@ calculator?.addEventListener('submit',event=>{
   document.querySelector('#resultado').textContent=`Estimación orientativa: ${estimate.toLocaleString('es-ES',{style:'currency',currency:'EUR'})}`;
 });
 
-const reservationUrl='https://taxia-reservas.marioquiroscuestaspo.chatgpt.site/reservar';
+const reservationUrl=`${pagesBase}/reservar/`;
 const phoneUrl='tel:+34608359956';
 
 const assistant=document.createElement('div');
