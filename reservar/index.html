@@ -16,7 +16,10 @@
   </style>
 </head>
 <body>
-  <iframe src="https://taxia-reservas.marioquiroscuestaspo.chatgpt.site/reservar" title="Formulario de reservas de Taxi Walter" allow="payment" loading="eager"></iframe>
-  <noscript><p>Para reservar, <a href="https://taxia-reservas.marioquiroscuestaspo.chatgpt.site/reservar">abre el formulario de Taxi Walter</a>.</p></noscript>
+  <iframe id="booking-frame" title="Formulario de reservas" allow="payment" loading="eager"></iframe>
+  <noscript><p>Para reservar, <a href="https://taxia-reservas.marioquiroscuestaspo.chatgpt.site/reservar">abre el formulario de reservas</a>.</p></noscript>
+  <script>
+    document.getElementById('booking-frame').src = 'https://taxia-reservas.marioquiroscuestaspo.chatgpt.site/reservar' + window.location.search;
+  </script>
 </body>
 </html>
